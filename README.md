@@ -14,7 +14,8 @@
 
 ---
 
-### 06-02 | Presentación de la asignatura; Diagnóstico
+### 06-02
+### Presentación de la asignatura; Diagnóstico
 
 1. Grupo de WhatsApp y LMS
 2. Presentación de la página oficial
