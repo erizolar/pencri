@@ -1,51 +1,313 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport"
-    content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no, viewport-fit=cover">
-
-  <!-- Replace with your own title and description. -->
-  <title>Awesome Docsify Site</title>
-  <meta name="description" content="An awesome docsify site for publishing some content on the web.">
-
-  <!-- Default Theme (see https://docsify.js.org/#/themes) -->
-  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
-
+  <meta charset="UTF-8">
+  <title>Pensamiento Crítico</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="keywords" content="">
+  <meta name="description" content="Asignatura en línea">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <link 
+    rel="stylesheet"
+    href="//cdn.jsdelivr.net/npm/docsify-darklight-theme@latest/dist/style.min.css"
+    title="csify-darklight-theme"
+    type="text/css"
+  />
 </head>
 
+<style>
+
+   /* ===== PRINCIPAL-TEXT-ALIGN ===== */
+  /* Justificar todo el contenido Markdown */
+  .markdown-section{
+    text-align: justify;
+  }
+
+  /* Asegurar que párrafos y elementos típicos hereden */
+  .markdown-section p,
+  .markdown-section li,
+  .markdown-section blockquote{
+    text-align: inherit;
+  }
+
+  /* Recomendado: NO justificar código ni tablas */
+  .markdown-section pre,
+  .markdown-section code{
+    text-align: left;
+  }
+  .markdown-section table{
+    text-align: left;
+  }
+
+
+  /* ===== TOGGLE ===== */
+  .sidebar-toggle {
+      padding: 0px;
+  }
+
+  .sidebar-toggle span {
+	background-color: #666666;
+	margin-bottom: 4px;
+	width: 23px;
+	height: 3px
+  }
+
+  .sidebar-toggle{
+    position: fixed !important;
+    top: 17px !important;
+    left: 8px !important;
+    right: auto !important;
+    bottom: auto !important;
+    z-index: 9999 !important;
+  }
+
+  /* ===== PRINCIPAL-HEIGHT-SPACING ===== */
+  main,
+  .markdown-section ol,
+  .markdown-section p,
+  .markdown-section ul {
+    line-height: 2.1rem;
+    word-spacing: .05rem;
+  }
+  
+  /* ===== PEQUEÑOS ===== */
+  .markdown-section .pagina-chica{ 
+    font-size: 0.8em; 
+    line-height: 1.6;
+    }
+  
+  .markdown-section .pagina-chica p,
+  .markdown-section .pagina-chica li{
+    line-height: inherit;
+  }
+
+  
+  /* ===== SIDEBAR ===== */
+
+  /* SIDEBAR-formato */  
+
+  /* “Título” del sitio en el sidebar (zona superior: name/logo) */
+  aside.sidebar .app-name,
+  aside.sidebar .app-name a {
+    font-size: 1.2em !important;   /* ajuste */
+    line-height: 2.5 !important;
+  }
+
+  /* Enlaces del sidebar */
+  aside.sidebar ul li a,
+  aside.sidebar .sidebar-nav ul li a,
+  aside.sidebar .sidebar-nav a {
+    font-size: 0.9em !important;
+    line-height: 2 !important;
+  }
+
+  /* “Títulos”/grupos del sidebar (cuando no son enlaces) */
+  aside.sidebar .sidebar-nav strong,
+  aside.sidebar .sidebar-nav em,
+  aside.sidebar .sidebar-nav li > p {
+    font-size: 0.9em !important;   /* ajuste */
+    line-height: 2 !important;
+  }
+  
+   /* ===== BLOCKQUOTE (>) ===== */
+  .markdown-section blockquote {
+    /* ancho del bloque (opcional) */
+    max-width: 100%;
+    margin: 1.2rem 0;
+    padding: 0.rem 1rem;
+
+    /* la “línea” del blockquote */
+    border-left: 7px solid #485966; /* cambie el 6px y/o el color */
+    opacity: 0.90;
+	}
+
+  .markdown-section blockquote{
+    font-size: 0.9em;  
+    line-height: 1.4; /* ajuste */
+  }
+  .markdown-section blockquote p,
+  .markdown-section blockquote li{
+    line-height: inherit;
+  }
+
+  .markdown-section blockquote{
+    font-weight: 400 !important;
+    font-synthesis: none !important;
+  }
+
+  .markdown-section blockquote p,
+  .markdown-section blockquote li,
+  .markdown-section blockquote span,
+  .markdown-section blockquote em,
+  .markdown-section blockquote i{
+    font-weight: inherit !important;
+    font-synthesis: none !important;
+  }
+
+  .markdown-section blockquote strong,
+  .markdown-section blockquote b{
+    font-weight: 700 !important;
+  }
+
+   /* ===== SIDEBAR-FONT-WIDTH ===== */  
+  aside.sidebar .sidebar-nav > ul > li > p,
+  aside.sidebar .sidebar-nav > ul > li > a {
+    font-family: "PT Sans", Roboto, Arial, sans-serif;
+    font-weight: 700; /* si no existe, caerá a 700/600/500 según la fuente */
+  }
+
+  /* Enlaces de niveles inferiores (opcional: dejar más “ligeros”) */
+  aside.sidebar .sidebar-nav > ul > li > ul a {
+	font-family: "PT Sans", Roboto, Arial, sans-serif;
+    font-weight: 500;
+  }
+  
+  .markdown-section{
+    width: min(800px, 92vw);   /* nunca supera 900px; en móvil se adapta al viewport */
+    margin: 0 auto;            /* centra en pantallas grandes */
+    padding: 0 1rem;           /* “márgenes” visibles en móvil */
+    box-sizing: border-box;    /* el padding cuenta dentro del width */
+  }
+  
+  /* ===== LINEA HORIZONTAL (---) ===== */
+  .markdown-section hr {
+    border: 0;
+    border-top: 1px solid currentColor; /* cambie grosor/color aquí */
+    opacity: 0.25;                      /* opcional */
+    margin: 1.8rem 0;                   /* separación arriba/abajo */
+  }
+
+  /* ===== HYPHENS ===== */
+  .markdown-section{
+    hyphens: auto;
+    overflow-wrap: break-word; /* rompe solo si una palabra no cabe */
+    word-break: normal;
+  }
+
+  /* Evitar cortes feos en código */
+  .markdown-section pre,
+  .markdown-section code{
+    hyphens: none;
+    overflow-wrap: normal;
+    word-break: normal;
+  }
+  
+  /* ===== LISTAS-ALTURA-HYPHENS ===== */
+  .markdown-section li,
+  .markdown-section li > p{
+    line-height: 1.8 !important;
+  }
+
+  /* Justificado + hyphenation en texto de listas */
+  .markdown-section li,
+  .markdown-section li > p{
+    text-align: justify !important;
+    hyphens: auto !important;
+    overflow-wrap: break-word;
+    word-break: normal;         /* evita romper antes de hyphenation */
+  }
+
+
+  /* ===== TOGGLE-DARK-LIGHT-DERECHA-COLOR-POSICIÓN ===== */  
+  #docsify-darklight-theme{
+    position: absolute !important;
+    top: 0px !important;
+    right: 0px !important;
+    left: auto !important;
+    z-index: 9999 !important;
+  }
+
+  /* ===== FOOTER ===== */  
+  .markdown-section{
+    padding-bottom: 30px; /* espacio real al final */
+  }
+ 
+  footer[style]{
+    margin-bottom: 20px !important;
+    font-size: 0.7em !important;
+    font-family: "PT Sans", Roboto, Arial, sans-serif; !important;
+    color: #969696 !important;
+  }
+  .dark-mode footer[style]{ color: #ddd !important; }
+
+</style>
+
+
 <body>
-  <div id="app"></div>
 
+  <div id="app">Festina lente...</div>
+  
   <script>
-    // Docsify Configuration (see https://docsify.js.org/#/configuration)
+        
     window.$docsify = {
-      name: 'Simple Docsify Template',
-
-      // Sidebar Configuration
+		
+	  darklightTheme: {
+		siteFont: "Georgia",
+		bodyFontSize : '20px',
+		defaultTheme : 'light',
+			light: {
+				textColor: '#2B2B2B',
+				blockQuoteColor : '#2B2B2B'},
+			dark: {
+				textColor: '#B4C0CF',
+				blockQuoteColor : '#B8C5D1'},
+	  },
+	  
+      search: 'auto', // default
+    
       auto2top: true,
+      executeScript: true,
       loadSidebar: true,
-      maxLevel: 0,
-      // Set subMaxLevel to 0 to remove automatic display of page table of contents (TOC) in Sidebar
-      subMaxLevel: 3,
-
-      // Search Plugin Configuration
+      loadNavbar: false,
+      maxLevel: 1,
+      subMaxLevel: 0,
+      name: "<i>PC</i>",
+      
       search: {
-        placeholder: 'Type to search',
-        noData: 'No matches found.',
-        // Headline depth, 1 - 6
-        depth: 2,
-      }
-    };
+        noData: {
+          '/': '¡Nada hay!'
+        },
+        paths: 'auto',
+        placeholder: {
+          '/': 'Buscar...'
+        }
+      },
+      
+      formatUpdated: 'Última actualización | {HH}:{mm} | {DD}-{MM}-{YYYY}',
+      
+	  
+	  plugins: [
+	  function(hook) {
+          var footer = [
+            '<footer style="text-align: center;">',
+            '<span> Pensamiento Crítico • UCB • 2026 </span>',
+            '</footer>'
+          ].join('');
+
+          hook.afterEach(function(html) {
+            return html + footer;
+          });
+        },
+      ]  	
+	    
+	}
+
   </script>
 
-  <!-- Required -->
-  <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/docsify.min.js"></script>
-
-  <!-- Recommended -->
-  <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/zoom-image.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/search.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs/components/prism-bash.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs/components/prism-markdown.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs/components/prism-nginx.min.js"></script>
+  <script 
+    src="//cdn.jsdelivr.net/npm/docsify-darklight-theme@latest/dist/index.min.js"
+    type="text/javascript">
+  </script>
+  <script src="//cdn.jsdelivr.net/npm/docsify-wikilink@1.1.2"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify-footnote/dist/docsify-footnote.min.js"></script>
 
 </body>
+
 </html>
+
