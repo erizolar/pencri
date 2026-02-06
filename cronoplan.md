@@ -58,15 +58,15 @@ Construir juicios coherentes para relacionarse críticamente con la información
 
 ***Obligatoria***
 - Alvargonzález, D. (2026). *Un mapa filosófico del mundo*. Tirant Humanidades.
-- Copi, I. y Cohen, C. (2013). *Introducción a la lógica*. Limusa.
-- Paul, R., & Elder, L. (2014). *Critical thinking: Tools for taking charge of your professional and personal life*. Pearson Education.
+- Copi, I. y Cohen, C. (2013). *Introducción a la lógica*. Limusa. [↗PDF](https://drive.google.com/file/d/1ZC1DohkEejUvFe0Gi3dBoqjuMRELB8Gn/view?usp=share_link)
+- Paul, R., & Elder, L. (2014). *Critical thinking: Tools for taking charge of your professional and personal life*. Pearson Education. [↗PDF](https://drive.google.com/file/d/1gP8_049r7wkcBs3lshLJMn4eW3NSdIOR/view?usp=share_link)
 
 ***Complementaria***
 
-- Dennett, D. (2015). *Bombas de intuición y otras herramientas de pensamiento*. Fondo de Cultura Económica.
-- Matute, M. (2019). *Nuestra mente nos engaña. Sesgos y errores cognitivos que todos cometemos*. Shaleckleton Books.
-- Sapolsky, R. (2020). *Compórtate: La biología que hay detrás de nuestros mejores y peores comportamientos*. Capitán Swing.
-- Shermer, M. (2008). *Por qué creemos en cosas raras*. ALBA.
+- Dennett, D. (2015). *Bombas de intuición y otras herramientas de pensamiento*. Fondo de Cultura Económica. [↗PDF](https://drive.google.com/file/d/12p1Ld9qsmK402u2s1yCHL7pX1-mc6kma/view?usp=share_link)
+- Matute, M. (2019). *Nuestra mente nos engaña. Sesgos y errores cognitivos que todos cometemos*. Shaleckleton Books. [↗PDF](https://drive.google.com/file/d/1XgwuHgdmwcSBAjy6bdnnE0tfp4vSiLYd/view?usp=share_link)
+- Sapolsky, R. (2020). *Compórtate: La biología que hay detrás de nuestros mejores y peores comportamientos*. Capitán Swing. [↗PDF](https://drive.google.com/file/d/1NN31L3UU7yLBLHPVMHBqTWzDO8Tgr2Ep/view?usp=share_link)
+- Shermer, M. (2008). *Por qué creemos en cosas raras*. ALBA. [↗PDF](https://drive.google.com/file/d/1jBJRwcRK4QtZArFxB3QmYx_PJJBEP_EP/view?usp=share_link)
 
 
 
