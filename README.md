@@ -21,12 +21,11 @@
 2. Diagnóstico (primera parte)
 3. Presentación de la página oficial
 4. Plan Global Mínimo
-5. Elementos básicos de Evaluación de Aprendizaje
-6. Cronograma de la UA1
-7. Glosarios, guías y listas de cotejo
-8. Recurso didáctico: pizarras grupales
-9. Sobre el propósito de la asignatura
-10. Diagnóstico (segunda parte)
+5. Cronograma de la UA1
+6. Glosarios, guías y listas de cotejo
+7. Recurso didáctico: pizarras grupales
+8. Sobre el propósito de la asignatura
+9. Diagnóstico (segunda parte)
 
 ---
 
@@ -44,13 +43,15 @@ La historia zénica es como sigue:
 
 Un discípulo del zen pregunta a su maestro cómo puede alcanzar la iluminación y su maestro le responde que deseándolo muchísimo; entonces el discípulo le pregunta qué es muchísimo.
 
-“Ah –le dice el maestro–, ven conmigo, acompáñame al río.”Llegan al río y el maestro le indica al discípulo que meta completamente la cabeza debajo del agua, que la hunda bien en ella y que aguante la respiración. El discípulo le obedece, pero al cabo de medio minuto, necesitando respirar, quiere sacar la cabeza, pero el maestro inmediatamente se la vuelve a hundir. Entonces se inicia un forcejeo de intensidad creciente entre el discípulo que quiere sacar la cabeza y el maestro que no quiere que la saque. El discípulo traga agua, se desespera, patalea, comienza a sufrir de asfixia por sumersión, y cuando ya está ahogándose, el maestro lo levanta y lo saca fuera del agua. El discípulo, desfalleciente, extenuado, jadeante, llega a decir a su maestro, con voz entrecortada: 
+"Ah –le dice el maestro–, ven conmigo, acompáñame al río."
 
-“Maestro, ¿por qué me ha hecho esto? Casi me ahogo, casi me muero.
+Llegan al río y el maestro le indica al discípulo que meta completamente la cabeza debajo del agua, que la hunda bien en ella y que aguante la respiración. El discípulo le obedece, pero al cabo de medio minuto, necesitando respirar, quiere sacar la cabeza, pero el maestro inmediatamente se la vuelve a hundir. Entonces se inicia un forcejeo de intensidad creciente entre el discípulo que quiere sacar la cabeza y el maestro que no quiere que la saque. El discípulo traga agua, se desespera, patalea, comienza a sufrir de asfixia por sumersión, y cuando ya está ahogándose, el maestro lo levanta y lo saca fuera del agua. El discípulo, desfalleciente, extenuado, jadeante, llega a decir a su maestro, con voz entrecortada: 
 
-”El maestro le dijo:
+"Maestro, ¿por qué me ha hecho esto? Casi me ahogo, casi me muero.
 
-“Lo hice porque quería que te desesperaras. Ahora entenderás que sólo queriendo desesperadamente la iluminación la alcanzarás. Si no la buscas con desesperación, entonces jamás te iluminarás.”
+"El maestro le dijo:
+
+"Lo hice porque quería que te desesperaras. Ahora entenderás que sólo queriendo desesperadamente la iluminación la alcanzarás. Si no la buscas con desesperación, entonces jamás te iluminarás."
 
 Para la inmensa mayoría de la humanidad, el designio del gran cambio, propulsado por la desesperación y la vehemencia, es algo tan escasamente atractivo como pellizcar vidrio o contar los granos de arena de un arenal.
 
