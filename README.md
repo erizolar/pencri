@@ -18,13 +18,15 @@
 #### Presentación de la asignatura; Diagnóstico
 
 1. Grupo de WhatsApp y LMS
-2. Presentación de la página oficial
-3. Plan Global Mínimo
-4. Elementos básicos de Evaluación de Aprendizaje
-5. Cronograma de la UA1
-6. 7. Glosarios, guías y listas de cotejo
-7. Recurso didáctico: pizarras grupales
-8. Diagnóstico (dos partes)
+2. Diagnóstico (primera parte)
+3. Presentación de la página oficial
+4. Plan Global Mínimo
+5. Elementos básicos de Evaluación de Aprendizaje
+6. Cronograma de la UA1
+7. Glosarios, guías y listas de cotejo
+8. Recurso didáctico: pizarras grupales
+9. Sobre el propósito de la asignatura
+10. Diagnóstico (segunda parte)
 
 ---
 
