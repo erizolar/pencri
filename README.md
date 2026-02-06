@@ -7,9 +7,9 @@
 
 <p style="text-align:center;">
 	<img
-	  src="images/erasmo-1.png"
+	  src="images/bauer-1.jpg"
 	  alt=""
-	  style="display:block;margin:0.5rem auto;width:100%;height:auto;max-width:100%;border-radius:6px;">	
+	  style="display:block;margin:1rem auto;width:100%;height:auto;max-width:100%;border-radius:6px;">	
 </p>
 
 ---
@@ -24,11 +24,12 @@
 5. Cronograma de la UA1
 6. 7. Glosarios, guías y listas de cotejo
 7. Recurso didáctico: pizarras grupales
-8. Diagnóstico
+8. Diagnóstico (dos partes)
 
 ---
 
-#### Segunda parte. **¿Queremos realmente cambiar?** 
+#### Segunda parte
+
 *Marco Aurelio Denegri (1938-2018)* 
 
 Ching Hai, la maestra taiwanesa que alcanzó la iluminación, según dicen, en el Himalaya y a quien se considera Buda viviente, está alborotando el cotarro espiritual, tanto en Oriente cuanto en Occidente, desde hace alrededor de un tricenio.
@@ -56,9 +57,9 @@ Gurdjieff decía (y su dicho tiene la patencia de un axioma) que en nuestra vida
 ---
 
 **Responde a las siguientes preguntas** 
-1. ¿De qué trata este texto?
-2. ¿Qué afirma el texto?
-3. ¿Cómo se sustenta la afirmación del texto?
+1. Propón una pregunta en la que se sintetice las intenciones del texto.
+2. ¿Qué respuesta ha dado el autor a la pregunta?
+3. ¿Cómo o qué medios usa el autor para sustentar la afirmación central del texto?
 4. ¿Estás de acuerdo el texto? Si sí, ¿por qué? Si no, ¿por qué?
 
 
