@@ -28,8 +28,8 @@
 
 ---
 
-#### **¿Queremos realmente cambiar?** 
-*Marco Aurelio Denegri*
+#### Segunda parte. **¿Queremos realmente cambiar?** 
+*Marco Aurelio Denegri (1938-2018)* 
 
 Ching Hai, la maestra taiwanesa que alcanzó la iluminación, según dicen, en el Himalaya y a quien se considera Buda viviente, está alborotando el cotarro espiritual, tanto en Oriente cuanto en Occidente, desde hace alrededor de un tricenio.
 
