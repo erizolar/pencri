@@ -63,7 +63,7 @@ Gurdjieff decía (y su dicho tiene la patencia de un axioma) que en nuestra vida
 1. Propón una pregunta en la que se sintetice las intenciones del texto.
 2. ¿Qué respuesta ha dado el autor a la pregunta?
 3. ¿Cómo o qué medios usa el autor para sustentar la afirmación central del texto?
-4. ¿Estás de acuerdo el texto? Si sí, ¿por qué? Si no, ¿por qué?
+4. ¿Estás de acuerdo con el texto? Si sí, ¿por qué? Si no, ¿por qué?
 
 
 </br>
